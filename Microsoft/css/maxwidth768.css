@@ -1,0 +1,104 @@
+header {
+	display: none;
+}
+
+.Small-Header {
+	display: block;
+}
+
+.Line1-Box {
+	padding: 45px 0 15px;
+}
+
+.Win10-Mainbody-ListFont {
+	position: static;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 24px;
+}
+
+.Win10-Mainbody-List1 {
+	margin: 0 auto;
+}
+
+.Windows-Game-Font {
+	bottom: 1%;
+}
+
+.Windows-App {
+	display: block;
+}
+
+.Windows-App div:nth-child(1) {
+	width: 100%;
+}
+
+.Windows-App-Font {
+	width: 100%;
+	text-align: center;
+}
+
+.Windows-News {
+	display: block;
+}
+
+.Windows-News div:nth-child(1) {
+	width: 100%;
+}
+
+.Windows-News-Font {
+	width: 100%;
+	text-align: center;
+}
+
+.Small-Header {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	max-width: 1600px;
+}
+
+.fa-navicon {
+	display: block;
+	position: absolute;
+	top: 8px;
+	width: 46px;
+	height: 32px;
+	text-align: center;
+}
+
+.Small-Header h1 {
+	position: absolute;
+	top: 12px;
+    left: calc(50% - 54px);
+    width: 108px;
+    height: 23px;
+	background: url(../img/head/Microsoft-head-logo.png);
+	background-size: cover;
+	background-clip: content-box;
+	background-origin: content-box;
+	text-indent: -9999px;
+}
+
+.Small-Header .icon-search {
+	position: absolute;
+	top: 18px;
+	right: 11px;
+}
+
+.Buy-Win10-Body {
+	display: block;
+}
+
+.Buy-Win10-Font {
+	padding: 0;
+	text-align: center;
+}
+
+.Windows-Game-Font {
+	width: 100%;
+	max-width: 1600px;
+	padding: 0;
+	text-align: center;
+	margin: 0;
+}

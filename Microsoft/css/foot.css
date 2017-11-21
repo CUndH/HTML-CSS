@@ -1,0 +1,69 @@
+footer {
+	background: #F2F2F2;
+	width: 100%;
+}
+
+.Footer-Font {
+	width: 100%;
+	padding: 0 5%;
+	margin: 0 auto;
+    max-width: calc(1600px + 10%);
+    box-sizing: border-box;
+}
+
+.Footer-List {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Footer-List li {
+	width: 16.6666%;
+	padding: 0 12px;
+}
+
+.Footer-List li p:nth-child(1) {
+	padding: 36px 0 4px;
+	font: 15px/20px "微软雅黑";
+	font-weight: 200;
+	color: #616161;
+}
+
+.Footer-List li p:nth-child(n+2) a {
+	color: #616161;
+}
+
+.Footer-List li p:nth-child(n+2) {
+	padding: 8px 0;
+	font: 11px/16px "微软雅黑";
+}
+
+.Foot-Option {
+	width: 100%;
+	padding: 30px 0 16px;
+}
+
+.Foot-Option-Lang {
+	float: left;
+	font: 11px/16px "微软雅黑";
+}
+
+.Foot-Option-Lang i {
+	margin-right: 10px;
+}
+
+.Foot-Option-Lang a {
+	color: #616161;
+}
+
+.Foot-Option-Nav {
+	float: right;
+	margin: 3px 0;
+	font: 11px/16px "微软雅黑";
+}
+
+.Foot-Option-Nav a,
+.Foot-Option-Nav span {
+	color: #616161;
+	padding: 0 24px 4px 0;
+}

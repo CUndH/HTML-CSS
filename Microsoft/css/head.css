@@ -1,0 +1,293 @@
+.Head {
+	width: 100%;
+    max-width: calc(1600px + 10%);
+	margin: 0 auto;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+
+.Head>h1 {
+	float: left;
+	padding-top: 12px;
+    width: 108px;
+    height: 23px;
+	background: url(../img/head/Microsoft-head-logo.png);
+	background-size: cover;
+	background-clip: content-box;
+	background-origin: content-box;
+	text-indent: -9999px;
+}
+
+.Head-List {
+	float: left;
+	font: 15px "微软雅黑";
+	margin-left: 17px;
+	position: relative;
+}
+
+.Head-List a {
+	color: #000;
+	display: inline-block;
+}
+
+.Head-List>li {
+	position: relative;
+	float: left;
+}
+
+.Head-List>li>a {
+	display: inline-block;
+	text-align: center;
+	line-height: 45px;
+	padding: 0 25px 0 25px;
+	height: 45px;
+}
+
+.Head-List-Menu {
+	width: 294px;
+	background: #f2f2f2;
+	border: 1px solid #e7e7e7;
+	border-bottom: 2px solid #000;
+	display: none;
+	transition: .3s;
+	position: absolute;
+	z-index: 999;
+}
+
+.Head-List-Menu>li>a {
+	padding: 16px 0 20px 24px;
+	display: block;
+}
+
+.Head-List-Menu2 {
+	background: #e6e6e6;
+	position: absolute;
+	top: -113px;
+	right: -296px;
+	height: 224px;
+	display: none;
+}
+
+.Head-List-Menu3 {
+	background: #e6e6e6;
+	position: absolute;
+	height: 560px;
+	right: -296px;
+	top: 45px;
+}
+
+.Head-List-Menu4 {
+	background: #e6e6e6;
+	position: absolute;
+	height: 336px;
+	right: -296px;
+	top: 45px;
+}
+
+.Head-List-Menu5 {
+	background: #e6e6e6;
+	position: absolute;
+	height: 616px;
+	right: -296px;
+	top: -113px;
+}
+
+.Head-List-Menu6 {
+	background: #e6e6e6;
+	position: absolute;
+	height: 280px;
+	right: -296px;
+	top: -168px;
+}
+
+.Head-List-Menu7 {
+	background: #e6e6e6;
+	position: absolute;
+	height: 280px;
+	right: -296px;
+	top: 45px;
+}
+
+.Head-List-Menu li:nth-child(3),
+.Head-List-Menu li:nth-child(4) {
+	position: relative;
+}
+
+.Head-List-Menu li:nth-child(4) ul {
+	top: -169px;
+}
+
+.Head-List>li:hover .Head-List-Menu1 {
+	display: block;
+}
+
+.Head-List>li:hover .Head-List-Hover{
+	background: #f2f2f2;
+	padding-bottom: 1px;
+	margin-bottom: -1px;
+}
+
+.Head-List-Menu:hover {
+	display: block;
+}
+
+.Head-List-Menu1 li:nth-child(3):hover .Head-List-Menu2 {
+	display: block;
+}
+
+.Head-List-Menu1 li:hover {
+	background: #e6e6e6;
+}
+
+.Head-List-Menu1 li:nth-child(4):hover .Head-List-Menu2 {
+	display: block;
+}
+
+.Head-List-Menu2 li:hover {
+	background: #d9d9d9;
+}
+
+.Head-List-Menu1 li:nth-child(1):hover .Head-List-Menu3 {
+	display: block;
+}
+
+.Head-List-Menu3 li:hover {
+	background: #d9d9d9;
+}
+
+.Head-List-Menu1 li:nth-child(2):hover .Head-List-Menu4 {
+	display: block;
+}
+
+.Head-List-Menu4 li:hover {
+	background: #d9d9d9;
+}
+
+.Head-List-Menu1 li:nth-child(3):hover .Head-List-Menu5 {
+	display: block;
+}
+
+.Head-List-Menu5 li:hover {
+	background: #d9d9d9;
+}
+
+.Head-List-Menu1 li:nth-child(4):hover .Head-List-Menu6 {
+	display: block;
+}
+
+.Head-List-Menu6 li:hover {
+	background: #d9d9d9;
+}
+
+.Head-List-Menu1 li:nth-child(5):hover .Head-List-Menu7 {
+	display: block;
+}
+
+.Head-List-Menu7 li:hover {
+	background: #d9d9d9;
+}
+
+.Head-LogBox {
+	float: right;
+	margin-top: 6px;
+}
+
+.Head-LogBox div {
+	display: inline-block;
+	position: relative;
+}
+
+.Head-LogBox div a {
+	position: absolute;
+	color: rgba(0,0,0,.6);
+	top: 12px;
+	right: 9px;
+}
+
+.Head-LogBox input {
+	width: 274px;
+	height: 34px;
+	border: 1px solid #999;
+}
+
+.Head-LogBox>a:nth-child(2) {
+	font: 15px/48px "微软雅黑";
+	display: inline-block;
+	padding: 0 12px;
+	color: #000;
+}
+
+.Head-LogBox input:hover {
+	border: 1px solid #000;
+}
+
+.Head-LogBox input:focus {
+	border: 1px solid #0067b8;
+}
+
+.icon-angle-right {
+	position: absolute;
+	right: 16px;
+}
+
+.Head2 {
+	padding-top: 0;
+}
+
+.Head2 h1 {
+	width: 109px;
+	background: url(../img/head/Windows-head-logo.png) no-repeat 0px 10px;
+}
+
+.Head-List-Menu8 li:nth-child(2):hover .Head-List-Menu2 {
+	display: block;
+}
+
+.Head-List-Menu8 li:hover {
+	background: #d9d9d9;
+}
+
+.Head-List-Menu9 {
+	background: #e6e6e6;
+	position: absolute;
+	height: 448px;
+	right: -296px;
+	top: 0;
+}
+
+.Head-List-Menu10 {
+	background: #e6e6e6;
+	position: absolute;
+	height: 616px;
+	right: -296px;
+	top: 0;
+}
+
+.Head-List-Menu1 li:nth-child(6):hover .Head-List-Menu11 {
+	display: block;
+}
+
+.Head-List-Menu11 li:hover {
+	background: #d9d9d9;
+}
+
+.Head-List-Menu11 {
+	background: #e6e6e6;
+	position: absolute;
+	height: 616px;
+	right: -296px;
+	top: 0;
+}
+
+.Head-Buy {
+	float: right;
+}
+
+.Head-Buy a {
+	display: inline-block;
+	font: 13px/1.3 "微软雅黑";
+	padding: 10px 22px 7px 24px;
+	color: #fff;
+	background: #0067B8;
+	margin-top: 5px;
+}

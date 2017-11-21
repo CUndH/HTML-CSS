@@ -1,0 +1,541 @@
+.Small-Header {
+	display: none;
+}
+
+.Banner-Box {
+	padding-top: 48px;
+}
+
+.Banner {
+	width: 100%;
+	padding: 0 5%;
+	margin: 0 auto;
+    max-width: calc(1600px + 10%);
+	box-sizing: border-box;
+}
+
+.Scroll-Banner {
+	width: 100%;
+	height: auto;
+	padding-bottom: 10%;
+	max-width: 1600px;
+	position: relative;
+	overflow: hidden;
+}
+
+.Scroll-Banner input[type=radio] {
+	display: none;
+}
+
+.Scroll-List {
+	width: 300%;
+	transition: .3s;
+}
+
+.Scroll-List li {
+	width: 33.3333%;
+	float: left;
+	display: block;
+}
+
+.Scroll-List li img {
+	max-width: 1600px;
+	width:100%;
+}
+
+.Scroll-Banner label{
+	width: 4px;
+	height: 4px;
+	background-color: #fff;
+	border-radius:4px;
+    border: 1px solid rgba(0,0,0,.8);
+	position: absolute;
+	z-index: 999;
+	left: 50%;
+	bottom: 5%;
+	margin-left: -10px;
+}
+
+.Scroll-Banner label:nth-of-type(1){
+	transform: translateX(-12px);
+}
+.Scroll-Banner label:nth-of-type(2){
+	transform: translateX(0px);
+}
+.Scroll-Banner label:nth-of-type(3){
+	transform: translateX(12px);
+}
+
+.Scroll-Banner input:checked+label {
+	background: #000;
+}
+
+.Scroll-List2 li a {
+	color: #000;
+}
+
+.Scroll-List2 li a p:nth-child(1) {
+	padding: 13px 0 3px;
+	font: 46px/56px "微软雅黑";
+	font-weight: 200;
+}
+
+.Scroll-List2 li a p:nth-child(2) {
+	padding: 4px 0 8px;
+	font: 24px/28px "微软雅黑";
+	font-weight: 200;
+}
+
+.Scroll-List2>li>a:nth-child(2),
+.Scroll-List2>li>a:nth-child(3) {
+	display: inline-block;
+	color: #0078D7;
+	font: 13px/1.3 "微软雅黑";
+	padding: 10px 22px 7px 24px;
+}
+
+.Scroll-Banner input:nth-of-type(1):checked~.Scroll-List {
+	transform: translateX(0px);
+}
+.Scroll-Banner input:nth-of-type(2):checked~.Scroll-List {
+	transform: translateX(-33.3333%);
+}
+.Scroll-Banner input:nth-of-type(3):checked~.Scroll-List {
+	transform: translateX(-66.6666%);
+}
+
+.Scroll-List2 li {
+	width: 33.3333%;
+	float: right;
+	text-align: center;
+}
+
+.Scroll-List2 {
+	width: 300%;
+	transition: .3s;
+}
+
+.Scroll-Banner input:nth-of-type(1):checked~.Scroll-List2 {
+	transform: translateX(-66.6666%);
+}
+.Scroll-Banner input:nth-of-type(2):checked~.Scroll-List2 {
+	transform: translateX(-33.3333%);
+}
+.Scroll-Banner input:nth-of-type(3):checked~.Scroll-List2 {
+	transform: translateX(0%);
+}
+
+.Line1-Box {
+	width: 100%;
+	padding: 45px 5% 15px;
+    max-width: calc(1600px + 10%);
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.Line1 {
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.Buy-Win10 {
+	width: 100%;
+	padding: 48px 5% 0;
+    max-width: calc(1600px + 10%);
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.Buy-Win10-Body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Buy-Win10-Font {
+	padding: 0 48px;
+}
+
+.Buy-Win10-Font p {
+	color: #000;
+}
+
+.Buy-Win10-Font p:nth-child(1) {
+	font: 34px/40px "微软雅黑";
+	font-weight: 200;
+}
+
+.Buy-Win10-Font p:nth-child(2) {
+	font: 15px/20px "微软雅黑";
+	font-weight: 400px;
+	padding-top: 24px;
+}
+
+.Buy-Win10-Font a {
+	display: block;
+	font: 13px/1.3 "微软雅黑";
+	color: #006788;
+	padding: 10px 16px 7px 0;
+	margin-top: 10px;
+}
+
+.Buy-Win10-Body img {
+	max-width: 100%;
+	height: auto;
+}
+
+.Win10-Mainbody {
+	width: 100%;
+	padding: 0 5%;
+	margin: 0 auto;
+    max-width: calc(1600px + 10%);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.Win10-Mainbody-Tit {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 48px 48px 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.Win10-Mainbody-Tit p:nth-child(1) {
+	padding: 37px 0 3px;
+	font: 46px/56px "微软雅黑";
+	font-weight: 100;
+}
+
+.Win10-Mainbody-Tit p:nth-child(2) {
+	padding: 24px 0 0;
+	font-weight: 400;
+	font: 15px/20px "微软雅黑";
+}
+
+.Win10-Mainbody-Tit a:nth-child(3) {
+	display: block;
+	margin-top: 10px;
+	padding: 10px 16px 7px 0;
+	font: 13px/1.3 "微软雅黑";
+	color: #0078D7;
+	font-weight: 700;
+}
+
+.Win10-Mainbody-ListBox {
+	max-width: 1600px;
+	width: 100%;
+	padding-top: 96px;
+}
+
+.Win10-Mainbody-List1 {
+	width: 50%;
+	max-width: 1600px;
+}
+
+.Win10-Mainbody-ListImg {
+	width: 500%;
+}
+
+.Win10-Mainbody-ListImg li img {
+	width: 100%;
+}
+
+.Win10-Mainbody-ListImg li {
+	width: 20%;
+	float: left;
+	position: relative;
+}
+
+.Win10-Mainbody-List1 {
+	position: relative;
+	overflow: hidden;
+}
+
+.Win10-Mainbody-List1 input {
+	display: none;
+}
+
+.Win10-Mainbody-ListFont {
+	position: absolute;
+	left: 54%;
+	top: 60%;
+}
+
+.Win10-Mainbody-ListFont p:nth-child(2) {
+	font: 34px/40px "微软雅黑";
+	font-weight: 100;
+}
+
+.Win10-Mainbody-ListFont p:nth-child(3) {
+	padding: 24px 0 0;
+	font: 15px/20px "微软雅黑";
+	font-weight: 400;
+}
+
+.Win10-Mainbody-ListFont a:nth-child(4) {
+	display: block;
+	margin-top: 10px;
+	padding: 10px 16px 7px 0;
+	font: 13px/1.3 "微软雅黑";
+	color: #0078D7;
+	font-weight: 700;
+}
+
+.Win10-Mainbody-ListFont p:nth-child(1) {
+	padding-bottom: 24px;
+}
+
+.Win10-Mainbody-ListFont p:nth-child(1) i {
+	margin-right: 30px;
+}
+
+.Big-Banner-PC {
+	width: 100%;
+	padding: 0 5%;
+	margin: 48px auto 0;
+    max-width: calc(1600px + 10%);
+    box-sizing: border-box;
+}
+
+.Big-Banner-PC img {
+	width: 100%;
+	max-width: 1600px;
+}
+
+.PC-List {
+	width: 100%;
+	padding: 0 5%;
+	margin: 48px auto 0;
+    max-width: calc(1600px + 10%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.PC-List li {
+	width: 25%;
+	padding: 0 12px;
+	text-align: center;
+}
+
+.PC-List li img {
+	width: 100%;
+}
+
+.PC-List li p:nth-child(2) {
+	font: 24px/28px "微软雅黑";
+	font-weight: 200;
+	padding: 36px 0 4px;
+}
+
+.PC-List li a:nth-child(3) {
+	display: block;
+	margin-top: 2px;
+	padding: 10px 16px 7px 0;
+	font: 13px/1.3 "微软雅黑";
+	color: #0078D7;
+	font-weight: 700;
+}
+
+.Windows-Game {
+	width: 100%;
+	padding: 0 5%;
+	margin: 48px auto 0;
+    max-width: calc(1600px + 10%);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.Windows-Game img {
+	width: 100%;
+	max-width: 1600px;
+}
+
+
+.Windows-Game-Font p:nth-child(1) {
+	padding: 38px 0 2px;
+	font: 34px/40px "微软雅黑";
+	font-weight: 100;
+}
+
+.Windows-Game-Font p:nth-child(2) {
+	padding: 24px 0 0;
+	font: 15px/20px "微软雅黑";
+	font-weight: 400;
+}
+
+.Windows-Game-Font a:nth-child(3) {
+	display: block;
+	padding: 22px 44px 7px 0;
+	font: 13px/1.3 "微软雅黑";
+	color: #0078D7;	
+}
+
+.Windows-App {
+	width: 100%;
+	padding: 0 5%;
+	margin: 48px auto 0;
+    max-width: calc(1600px + 10%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Windows-App>div:nth-child(1) {
+	width: 65%;
+}
+
+.Windows-App img {
+	width: 100%;
+}
+
+.Windows-App-Font {
+	width: 35%;
+	padding: 0 48px;
+	box-sizing: border-box;
+}
+
+.Windows-App-Font p:nth-child(1) {
+    padding: 38px 0 2px;
+    font: 34px/40px "微软雅黑";
+    font-weight: 100;
+}
+
+.Windows-App-Font p:nth-child(2) {
+    padding: 24px 0 0;
+    font: 15px/20px "微软雅黑";
+    font-weight: 400;
+}
+
+.Windows-App-Font a:nth-child(3) {
+	display: block;
+	padding: 22px 44px 7px 0;
+	font: 13px/1.3 "微软雅黑";
+	color: #0078D7;	
+}
+
+.Windows-News {
+	width: 100%;
+	padding: 0 5%;
+	margin: 48px auto 0;
+    max-width: calc(1600px + 10%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.Windows-News img {
+	width: 108%;
+}
+
+.Windows-News-Font p:nth-child(1) {
+    padding: 38px 0 2px;
+    font: 34px/40px "微软雅黑";
+    font-weight: 100;
+}
+
+.Windows-News-Font p:nth-child(2) {
+    padding: 24px 0 0;
+    font: 15px/20px "微软雅黑";
+    font-weight: 400;
+}
+
+.Windows-News-Font a:nth-child(3) {
+	display: block;
+	padding: 22px 44px 7px 0;
+	font: 13px/1.3 "微软雅黑";
+	color: #0078D7;	
+}
+
+.Windows-prefooter {
+	width: 100%;
+	padding: 0 5%;
+	margin: 48px auto 0;
+    max-width: calc(1600px + 10%);
+    box-sizing: border-box;
+}
+
+.Windows-prefooter-content {
+	width: 100%;
+	border-top: 1px solid rgba(0,0,0,.2);
+	border-bottom: 1px solid rgba(0,0,0,.2);
+	display: flex;
+	justify-content: space-around;
+}
+
+.Windows-prefooter-content li {
+	text-align: center;
+	margin: 48px 0.5%;
+	width: 25%;
+}
+
+.Windows-prefooter-content li span {
+	display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #006cc2;
+    margin-bottom: 12px;
+}
+
+.Windows-prefooter-content li span:nth-child(1) {
+	color: #333;
+}
+
+.Windows-Desc {
+	widows: 100%;
+	background: #333;
+	margin-top: 48px;
+}
+
+.Windows-Desc-Font {
+	width: 100%;
+	padding: 20px 5%;
+	margin: 48px auto 0;
+    max-width: calc(1600px + 10%);
+    box-sizing: border-box;
+}
+
+.Windows-Desc-Font p {
+	padding: 4px 0;
+	font: 11px/16px "微软雅黑";
+	font-weight: 400;
+	color: #FFF;
+}
+
+.Head-LogBox>a:nth-child(2):hover {
+	color: #0067B8;
+}
+
+.Scroll-List2>li>a:nth-child(2):hover,
+.Scroll-List2>li>a:nth-child(3):hover,
+.Buy-Win10-Font>a:nth-child(3):hover,
+.Win10-Mainbody-Tit>a:nth-child(3):hover,
+.Win10-Mainbody-ListFont>a:nth-child(4):hover,
+.PC-List>li>a:nth-child(3):hover,
+.Windows-Game-Font>a:nth-child(3):hover,
+.Windows-App-Font>a:nth-child(3):hover,
+.Windows-News-Font>a:nth-child(3):hover,
+.Footer-List>li>p>a:hover,
+.Foot-Option a:hover,
+.Windows-prefooter-content li a:hover {
+	text-decoration: underline;
+}
+
+.Windows-News div:nth-child(1) {
+	overflow: hidden;
+}
+
+.Windows-Game-Font {
+	max-width: 1600px;
+	padding-left: 48px;
+	width: 30%;
+	margin-top: -25%;
+}

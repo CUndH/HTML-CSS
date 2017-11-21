@@ -1,0 +1,52 @@
+.Head-LogBox div input {
+	display: none;
+}
+
+.Head-LogBox div a {
+	position: static;
+}
+
+.Line1-Box {
+	padding: 45px 0 15px;
+}
+
+.Win10-Mainbody-ListFont {
+	position: static;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 24px;
+}
+
+.Win10-Mainbody-List1 {
+	margin: 0 auto;
+}
+
+.Windows-Game-Font {
+	bottom: 1%;
+}
+
+.Windows-App {
+	display: block;
+}
+
+.Windows-App div:nth-child(1) {
+	width: 100%;
+}
+
+.Windows-App-Font {
+	width: 100%;
+	text-align: center;
+}
+
+.Windows-News {
+	display: block;
+}
+
+.Windows-News div:nth-child(1) {
+	width: 100%;
+}
+
+.Windows-News-Font {
+	width: 100%;
+	text-align: center;
+}
